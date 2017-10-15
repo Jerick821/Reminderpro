@@ -1,0 +1,28 @@
+[debug] [2017-10-09T08:40:42.277Z] ----------------------------------------------------------------------
+[debug] [2017-10-09T08:40:42.293Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jerick\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-09T08:40:42.293Z] CLI Version:   3.10.0
+[debug] [2017-10-09T08:40:42.293Z] Platform:      win32
+[debug] [2017-10-09T08:40:42.293Z] Node Version:  v6.11.3
+[debug] [2017-10-09T08:40:42.293Z] Time:          Mon Oct 09 2017 21:40:42 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-09T08:40:42.293Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-09T08:40:42.308Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-09T08:40:42.308Z] > authorizing via signed-in user
+[debug] [2017-10-09T08:40:42.308Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/reminderpro-ee85e  
+ Mon Oct 09 2017 21:40:42 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-09T08:40:43.463Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-09T08:40:43.463Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/reminderpro-ee85e/tokens  
+ Mon Oct 09 2017 21:40:43 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-09T08:40:44.336Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Jerick\Desktop\Web Dev\Test\reminderPro'...
+[info] 
+[debug] [2017-10-09T08:40:44.352Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/reminderpro-ee85e  
+ Mon Oct 09 2017 21:40:44 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-09T08:40:45.834Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-09T08:40:45.834Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/862679007685/clients/_:getWebAppConfig  
+ Mon Oct 09 2017 21:40:45 GMT+1300 (New Zealand Daylight Time)
+[debug] [2017-10-09T08:40:47.176Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+

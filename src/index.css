@@ -3,15 +3,25 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+    
 }
 
 .title {
     text-align: center;
-    font-size: 26px;
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color:white;
+    /* text-shadow: 2px 2px 3px rgba(255,255,255,0.5); */
 }
 
 input {
     margin: 5px;
+    background:rgba(255,255,255, 0.4) !important;
+    color:white !important;
+    border:none !important;
+    margin-right:5px;
 }
 
 .reminder-form {
@@ -26,4 +36,61 @@ input {
 .delete-button {
     float: right;
     padding-left: 5px;
+}
+
+.main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("rodrigo-mtorres-298109.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    border: none;
+    border-radius: 8px;
+    padding: 50px 50px 100px 50px;
+    background: rgba(0, 0, 0, 0.4);
+    height:80%;
+    width:50%;
+    margin-top: 50px;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin: 0 5px;
+    border:none;
+    color:white;
+    border-radius:5px;
+}
+
+.btn-danger {
+    margin-top:50px;
+    background: rgba(247, 67, 67, 0.5);
+    
+}
+
+.btn-success {
+    background: rgba(50,205,50, 0.5);
+}
+
+.form-group{
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+.list-group {
+    margin-top: 30px;
+    
+}
+
+.list-group-item {
+    background:rgba(255,255,255, 0.4);
+    border:none;
+    color:white;
+    margin-top:3px;
 }

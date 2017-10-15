@@ -49,38 +49,42 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                <div className="title">
-                    Reminder Pro
-                </div>
-                <div className="form-inline reminder-form">
-                    <div className="form-group">
-                        <input
-                            className="form-control"
-                            placeholder="I have to..."
-                            onChange={event => this.setState({text: event.target.value})}
-                        />
-                        <input
-                            className="form-control"
-                            type="datetime-local"
-                            onChange={event => this.setState({dueDate: event.target.value})}
-                        />
+            <div className="main">
+                <div className="container">
+                    <div className="App">
+                        <div className="title">
+                            REMINDER PRO
+                        </div>
+                        <div className="form-inline reminder-form">
+                            <div className="form-group">
+                                <input
+                                    className="form-control"
+                                    placeholder="I have to..."
+                                    onChange={event => this.setState({text: event.target.value})}
+                                />
+                                <input
+                                    className="form-control"
+                                    type="datetime-local"
+                                    onChange={event => this.setState({dueDate: event.target.value})}
+                                />
+                            </div>
+                            
+                            <button
+                                type="button"
+                                className="btn btn-success"
+                                onClick={() => this.addReminder()}
+                            >
+                            ADD REMINDER
+                            </button>
+                        </div>
+                        { this.renderReminders() }
+                        <div
+                            className="btn btn-danger"
+                            onClick={() => this.props.clearReminders()}
+                        >
+                            CLEAR ALL
+                        </div>
                     </div>
-                    
-                    <button
-                        type="button"
-                        className="btn btn-success"
-                        onClick={() => this.addReminder()}
-                    >
-                    Add Reminder
-                    </button>
-                </div>
-                { this.renderReminders() }
-                <div
-                    className="btn btn-danger"
-                    onClick={() => this.props.clearReminders()}
-                >
-                    Clear reminders
                 </div>
             </div>
         )
